@@ -9,8 +9,12 @@ const Header = () => {
                     Logo
                 </a>
                 <ul id="nav-mobile" className="left hide-on-med-and-down">
-                    <li>{/* <Link to="/about">About</Link> */}</li>
-                    <li>{/* <Link to="/contacts">Contacts</Link> */}</li>
+                    <li>
+                        <a href="/about">About</a>
+                    </li>
+                    <li>
+                        <a href="/contacts">Contacts</a>
+                    </li>
                 </ul>
             </div>
         </nav>
